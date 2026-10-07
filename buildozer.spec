@@ -19,7 +19,7 @@ source.include_exts = py,png,jpg,kv,atlas
 version = 1.0.0
 
 # (list) Application requirements
-requirements = python3,kivy==2.3.0,kivymd,pillow,plyer
+requirements = python3,kivy==2.2.1,kivymd==1.2.0,pillow,plyer
 
 # (str) Supported orientation
 orientation = portrait
@@ -31,7 +31,7 @@ fullscreen = 0
 android.permissions = ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION, INTERNET
 
 # (int) Target Android API
-android.api = 33
+android.api = 31
 
 # (int) Minimum API required
 android.minapi = 21
