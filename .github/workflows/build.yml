@@ -15,6 +15,12 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -41,11 +47,10 @@ jobs:
             libtool \
             pkg-config \
             cmake \
-            openjdk-17-jdk \
             zip \
             unzip
 
-      - name: Install Buildozer & Cython
+      - name: Install Buildozer & Dependencies
         run: |
           python -m pip install --upgrade pip
           pip install "cython<3.0.0" buildozer python-for-android
