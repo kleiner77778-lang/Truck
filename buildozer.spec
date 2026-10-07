@@ -6,10 +6,10 @@ title = LKW Tracker
 # (str) Package name
 package.name = lkwtracker
 
-# (str) Package domain (needed for android/ios packaging)
+# (str) Package domain
 package.domain = org.oliver.lkwtracker
 
-# (str) Source code where the main.py live
+# (str) Source code directory
 source.dir = .
 
 # (list) Source files to include
@@ -19,7 +19,7 @@ source.include_exts = py,png,jpg,kv,atlas
 version = 1.0.0
 
 # (list) Application requirements
-requirements = python3,kivy==2.3.0,kivymd==1.2.0,pillow,plyer
+requirements = python3,kivy==2.3.0,kivymd,pillow,plyer
 
 # (str) Supported orientation
 orientation = portrait
