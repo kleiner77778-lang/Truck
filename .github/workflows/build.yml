@@ -55,6 +55,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install "cython<3.0.0" "buildozer==1.5.0"
 
+      - name: Accept Android SDK Licenses
+        run: |
+          yes | yes | buildozer android p4a -- --accept-sdk-license || true
+
       - name: Build APK with Buildozer
         run: |
           buildozer -v android debug
