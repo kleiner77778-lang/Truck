@@ -18,8 +18,8 @@ source.include_exts = py,png,jpg,kv,atlas
 # (str) Application versioning
 version = 1.0.0
 
-# (list) Application requirements
-requirements = python3,kivy==2.2.1,kivymd==1.2.0,pillow,plyer
+# (list) Application requirements (Pillow entfernt, Kivy/KivyMD exakt angegeben)
+requirements = python3,kivy==2.2.1,https://github.com/kivymd/KivyMD/archive/1.2.0.zip,plyer
 
 # (str) Supported orientation
 orientation = portrait
@@ -33,7 +33,7 @@ android.permissions = ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION, INTERNET
 # (int) Target Android API
 android.api = 33
 
-# (int) Minimum API required (WICHTIG: Auf 24 anheben für KivyMD & AndroidX)
+# (int) Minimum API required
 android.minapi = 24
 
 # (str) Android NDK version
