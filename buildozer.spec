@@ -18,7 +18,7 @@ source.include_exts = py,png,jpg,kv,atlas
 # (str) Application versioning
 version = 1.0.0
 
-# (list) Application requirements (Pillow entfernt, Kivy/KivyMD exakt angegeben)
+# (list) Application requirements
 requirements = python3,kivy==2.2.1,https://github.com/kivymd/KivyMD/archive/1.2.0.zip,plyer
 
 # (str) Supported orientation
