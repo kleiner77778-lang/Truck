@@ -31,10 +31,10 @@ fullscreen = 0
 android.permissions = ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION, INTERNET
 
 # (int) Target Android API
-android.api = 31
+android.api = 33
 
-# (int) Minimum API required
-android.minapi = 21
+# (int) Minimum API required (WICHTIG: Auf 24 anheben für KivyMD & AndroidX)
+android.minapi = 24
 
 # (str) Android NDK version
 android.ndk = 25b
