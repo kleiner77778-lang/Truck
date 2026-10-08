@@ -18,7 +18,7 @@ source.include_exts = py,png,jpg,kv,atlas
 # (str) Application versioning
 version = 1.0.0
 
-# (list) Application requirements
+# (list) Application requirements (Stabile Kombi ohne Versionskonflikte)
 requirements = python3,kivy==2.2.1,kivymd==1.2.0,pillow,plyer
 
 # (str) Supported orientation
@@ -31,7 +31,7 @@ fullscreen = 0
 android.permissions = ACCESS_FINE_LOCATION, ACCESS_COARSE_LOCATION, INTERNET
 
 # (int) Target Android API
-android.api = 31
+android.api = 33
 
 # (int) Minimum API required
 android.minapi = 24
